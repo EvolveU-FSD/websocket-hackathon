@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cd server && node server.js",
-    "install": "cd server && npm install && cd client && npm install",
+    "install": "cd server && npm install && cd ../client && npm install",
     "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\""
   },
   "author": "",
